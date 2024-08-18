@@ -62,6 +62,41 @@
             z-index: 1;
             pointer-events: none;
         }
+        
+        /* Mobile Devices */
+        @media only screen and (max-width: 480px) {
+            #clock {
+                font-size: 3rem;
+                padding: 20px;
+                width: 300px;
+            }
+            #date {
+                font-size: 1rem;
+            }
+        }
+        /* Tablets */
+        @media only screen and (max-width: 768px) {
+            #clock {
+                font-size: 4rem;
+                padding: 30px;
+                width: 400px;
+            }
+            #date {
+                font-size: 1.2rem;
+            }
+        }
+        /* Desktops  */
+        @media only screen and (min-width: 1024px) {
+            #clock {
+                font-size: 6rem;
+                padding: 50px;
+                width: 600px;
+            }
+            #date {
+                font-size: 1.8rem;
+            }
+        }
+
     </style>
 </head>
 
